@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5801845993048484344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5801845993048484342}
+  - component: {fileID: 5801845993048484343}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5801845993048484342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5801845993048484344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.38056, y: 7.1493044, z: -123.43747}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5801845993048484343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5801845993048484344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f64b0bb7e498447b0846862ba80159, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: SetWallSFX
+    clip: {fileID: 8300000, guid: 5e785b3d95d637a48ae2037bf08ed70e, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: EnemyFightSFX
+    clip: {fileID: 8300000, guid: 751cd3f0bf239af48b524da225febd2b, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: StoryBGM
+    clip: {fileID: 8300000, guid: 9907d1a56d61bd84fa4d565ce35c1fb9, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: GamePlayBGM
+    clip: {fileID: 8300000, guid: 481b8a57be8d8fb4e98b8ef0160aa2c4, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: SetTrapSFX
+    clip: {fileID: 8300000, guid: 928a852ef4bd06c4aa58d50c9bef1d52, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: DropBaitSFX
+    clip: {fileID: 8300000, guid: 3a3f13984f740d947b7eb683bdff552f, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: FightSFX
+    clip: {fileID: 8300000, guid: 5ca0d8025768f6f4489716987451e41f, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: LionHurtSFX
+    clip: {fileID: 8300000, guid: 751cd3f0bf239af48b524da225febd2b, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: SetPortalSFX
+    clip: {fileID: 8300000, guid: f212a6c6a0389c24bb63c5eb95fab52f, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: TeleportSFX
+    clip: {fileID: 8300000, guid: eefe5461d85656a4caaae58a341c8143, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: rabbitHurtSFX
+    clip: {fileID: 8300000, guid: 4ed48d53efe6a6f4a8b582e2532b962e, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: windSFX
+    clip: {fileID: 8300000, guid: 012a3df3ca8b9dd42b269638149f5b10, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: WinSFX
+    clip: {fileID: 8300000, guid: 02bc3c077ce5edd4489da80a1eecc97b, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: CompleteWinSFX
+    clip: {fileID: 8300000, guid: 815e24e8a6b54c640ab9e15cb0f6c178, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: LoseSFX
+    clip: {fileID: 8300000, guid: 1cfb089c8f474cb418497275aaa6ea8f, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: SetThunderSFX
+    clip: {fileID: 8300000, guid: 9ee0dc8200cd4a6419de4261d63c9182, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  bgm:
+    name: 
+    clip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
